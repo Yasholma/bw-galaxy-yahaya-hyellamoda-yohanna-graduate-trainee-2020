@@ -1,0 +1,19 @@
+package io.byteworks.bwgalaxybackend.exception;
+
+/**
+ * Created by Yasholma on 26-Feb-20.
+ */
+import org.springframework.http.HttpStatus;
+import org.springframework.web.bind.annotation.ResponseStatus;
+
+@ResponseStatus(HttpStatus.BAD_REQUEST)
+public class BadRequestException extends RuntimeException {
+
+    public BadRequestException(String message) {
+        super(message);
+    }
+
+    public BadRequestException(String message, Throwable cause) {
+        super(message, cause);
+    }
+}

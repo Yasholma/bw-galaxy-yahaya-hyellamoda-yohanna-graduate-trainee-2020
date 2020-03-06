@@ -1,0 +1,23 @@
+.newtask-container {
+    max-width: 520px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.newtask-form-button {
+    width: 100%;
+    margin-top: 15px;
+}
+
+.newtask-form-button[disabled],
+.newtask-form-button[disabled]:hover,
+.newtask-form-button[disabled]:focus {
+    opacity: 0.6;
+    color: #fff;
+    background-color: #1890ff;
+    border-color: #1890ff;
+}
+
+.newtask-form input {
+    margin-bottom: -10px;
+}

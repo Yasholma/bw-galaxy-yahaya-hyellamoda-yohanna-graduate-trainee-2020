@@ -1,0 +1,21 @@
+.login-container {
+    max-width: 420px;
+    margin: 0 auto;
+    margin: 0 auto;
+    margin-top: 40px;
+    height: 100%;
+}
+
+.login-form-button {
+    width: 100%;
+}
+
+.page-title {
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+/* Utitlities */
+.mb-2 {
+    margin-bottom: 20px;
+}
